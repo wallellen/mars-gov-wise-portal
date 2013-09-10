@@ -252,17 +252,19 @@ $(document).ready(function() {
 							</table>
 						</div>
 					
-						<div class="sideContent">
-						
-							<div style="text-align:center; margin-top:5px"><img src="/webapp/themes/tels/default/images/wise4-logo-new-sm.png" alt="WISE" /></div>
+						<!-- REMOVE WISE REFFERENCE
+							<div class="sideContent">
 							
-							<spring:htmlEscape defaultHtmlEscape="false">
-            				<spring:escapeBody htmlEscape="false">
-								<div class="displayAsEnglish"><spring:message code="legalCopyright"/></div>
-							</spring:escapeBody>
-							</spring:htmlEscape>
-							
-						</div>
+								<div style="text-align:center; margin-top:5px"><img src="/webapp/themes/tels/default/images/wise4-logo-new-sm.png" alt="WISE" /></div>
+								
+								<spring:htmlEscape defaultHtmlEscape="false">
+	            				<spring:escapeBody htmlEscape="false">
+									<div class="displayAsEnglish"><spring:message code="legalCopyright"/></div>
+								</spring:escapeBody>
+								</spring:htmlEscape>
+								
+							</div>
+						-->
 					</div>
 				</div>
 			</div>
