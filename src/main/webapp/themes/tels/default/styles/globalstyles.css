@@ -275,6 +275,7 @@ img.icon {
 	width:500px;
 	height:145px;
 	margin: 0 auto;
+	display: none;
 }
 
 #footer {
@@ -314,7 +315,7 @@ a#name {
 	height: 145px;
 	left: 0;
 	top: 0;
-}
+	display: none;
 
 .loginPanel a#name {
 	height: 80px;
